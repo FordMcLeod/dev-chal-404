@@ -1,0 +1,108 @@
+body {
+    height:100vh; 
+    margin:0; 
+    display:flex; 
+    flex-direction:column; 
+}
+
+footer{
+    margin-top:auto; 
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+a { 
+    text-decoration: none;     
+    color: #BDBDBD;
+}
+
+header {
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+    color: #333333;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+h1 { 
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    margin:0;
+}
+
+.text-body {
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #4F4F4F;
+    max-width: 381px;
+}
+
+.button-text {
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    vertical-align: top;
+    fill: #FFFFFF;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row-wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:5%;
+}
+
+.flex-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+}
+
+@media all and (min-width: 800px) {
+    .flex-container {
+        margin-top:5%;
+    }
+    
+}
+
+@media all and (max-width: 500px) {
+    .flex-container {
+        flex-direction: column;
+        margin-left:10px;    
+    }
+    h1 { 
+        font-size: 48px;
+        line-height: 71px;
+    }
+    .text-body {
+        font-size: 18px;
+        max-width: 100%;
+    }
+}
+
+
